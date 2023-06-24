@@ -1,0 +1,22 @@
+﻿<Window x:Class="Examen_final.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Examen_final"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Carnet" HorizontalAlignment="Right" Margin="0,0,745,398" VerticalAlignment="Bottom"/>
+        <Label Content="Nombre" HorizontalAlignment="Right" Margin="0,0,736,368" VerticalAlignment="Bottom"/>
+        <Label Content="Telefono" HorizontalAlignment="Right" Margin="0,0,735,338" VerticalAlignment="Bottom"/>
+        <Label Content="Grado" HorizontalAlignment="Right" Margin="0,0,747,308" VerticalAlignment="Bottom"/>
+        <TextBox HorizontalAlignment="Right" Margin="0,16,600,0" TextWrapping="Wrap" Name="CarnetTxtBox" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Right" Margin="0,46,600,0" TextWrapping="Wrap" Name="NombreTxtBox" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Right" Margin="0,76,600,0" TextWrapping="Wrap" Name="TelefonoTxtBox" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Right" Margin="0,106,600,0" TextWrapping="Wrap" Name="GradoTxtBox" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Guardar" HorizontalAlignment="Right" Margin="0,0,600,268" VerticalAlignment="Bottom" Width="190" Height="35" Click="Button_Click"/>
+        <DataGrid Width="584" HorizontalAlignment="Right" VerticalAlignment="Center" Height="434" x:Name="DataGridAlumnos">
+        </DataGrid>
+    </Grid>
+</Window>
